@@ -1,6 +1,7 @@
 // import { Button, MenuItem, TextField } from "@material-ui/core";
 import { Button, MenuItem, TextField } from "@mui/material";
 import { useState } from "react";
+import quizPic from './quiz.jpg'
 
 import { useNavigate } from 'react-router-dom';
 import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
@@ -77,7 +78,7 @@ const Home = ({ name, setName, fetchQuestions }) => {
           </Button>
         </div>
       </div>
-      <img src="/quiz.svg" className="banner" alt="quiz app" />
+      <img src={quizPic} className="banner" alt="quiz app" />
     </div>
   );
 };

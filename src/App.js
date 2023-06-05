@@ -29,7 +29,7 @@ function App() {
       <div className="app" style={{ backgroundImage: 'url("/ques1.png")' }}>
         <Header />
         <Routes>
-          <Route path="/" exact element={
+          <Route path="/temp-quiz" exact element={
             <Home
               name={name}
               setName={setName}
